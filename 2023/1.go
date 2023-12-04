@@ -82,7 +82,7 @@ func getLast(x string) string {
 	return ""
 }
 
-func main() {
+func one() {
 	fo, err := os.ReadFile("1.input")
 	if err != nil {
 		fmt.Print(err)
